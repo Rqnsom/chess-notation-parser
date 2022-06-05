@@ -1,8 +1,12 @@
 [package]
 name = "chess-notation-parser"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Rqnsom"]
+repository = "https://github.com/Rqnsom/chess-notation-parser"
+description = "Algebraic chess notation parser"
+keywords = ["chess", "chess-notation"]
+license = "MIT"
+readme = "README.md"
 
 [dependencies]

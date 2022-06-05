@@ -3,8 +3,8 @@
 //! vice versa. Parsed chess notation for each turn is stored within `Turn`
 //! struct.
 //!
-//! To parse a certain chess turn, such as `d2xe3`, send it in form of `&str` as
-//! an argument into `Turn::try_from()` function.
+//! To parse a certain chess turn, such as `d2xe3`, store it in form of `&str`
+//! and pass it as an argument into `Turn::try_from()` function.
 //!
 //! `Turn` is an enum with two elements:
 //! - `Castling` - a struct which describes *castling* turn
