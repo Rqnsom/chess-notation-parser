@@ -89,3 +89,8 @@ the turn
   - Valid example: `a1=B??`
   - Invalid example: `??a1=B`
 
+# About
+I don't really play chess that much, but I needed something to practice my Rust
+skills, so this was sort of a fun project.
+This particular crate was created for the purpose of [Pacifist chess
+simulation](https://github.com/Rqnsom/pacifist-chess-simulation).

@@ -1,10 +1,11 @@
 [package]
 name = "chess-notation-parser"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["Rqnsom"]
 repository = "https://github.com/Rqnsom/chess-notation-parser"
 description = "Algebraic chess notation parser"
+documentation = "https://docs.rs/chess-notation-parser/"
 keywords = ["chess", "chess-notation"]
 license = "MIT"
 readme = "README.md"
