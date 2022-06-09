@@ -154,7 +154,7 @@ fn get_squares(
 
 // Fill out `Move` struct from the turn input
 pub fn parse_move(turn_move: &str) -> Result<Turn, &'static str> {
-    const ALLOWED_CHARS: &'static str = "abcdefgh12345678#+=x?!KQRNBP";
+    const ALLOWED_CHARS: &str = "abcdefgh12345678#+=x?!KQRNBP";
 
     // Any turns with dirty non-ASCII UTF-8 characters are dropped here
     for c in turn_move.chars() {

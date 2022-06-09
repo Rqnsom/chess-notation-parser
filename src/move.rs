@@ -52,7 +52,7 @@ pub struct Move {
 }
 
 impl Move {
-    fn constuct_src_string(src: &Vec<Square>) -> String {
+    fn constuct_src_string(src: &[Square]) -> String {
         match src.len() {
             1 => return src[0].to_string(),
             8 => (),
